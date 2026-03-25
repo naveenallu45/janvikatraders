@@ -35,7 +35,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-primary-400 shrink-0 mt-0.5" />
-                <a href="mailto:info@janvikatraders.com" className="hover:text-primary-400 transition-colors">info@janvikatraders.com</a>
+                <a href="mailto:info@janvikatraders.in" className="hover:text-primary-400 transition-colors">info@janvikatraders.in</a>
               </li>
               <li className="flex flex-col gap-3 pt-2">
                 <div className="flex items-start gap-3">
@@ -76,9 +76,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-primary-900/30 text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center">
+        <div className="pt-8 border-t border-primary-900/30 text-center text-gray-500 text-sm flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-4">
           <p>© {new Date().getFullYear()} Janvika Traders. All rights reserved.</p>
-          <div className="mt-4 md:mt-0 space-x-4">
+          
+          <div className="flex items-center gap-1.5 font-medium bg-earth-900/30 px-5 py-2 rounded-full border border-primary-900/30 shadow-inner">
+            Made with <span className="text-red-500 animate-pulse text-base">❤️</span> by 
+            <a 
+              href="https://www.staffarc.in" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary-400 hover:text-primary-300 font-bold transition-colors ml-1 relative group"
+            >
+              StaffArc
+              <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-primary-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </div>
+
+          <div className="space-x-6">
             <a href="#" className="hover:text-primary-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary-400 transition-colors">Terms of Service</a>
           </div>

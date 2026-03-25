@@ -51,8 +51,8 @@ export default function Navbar() {
             </Link>
           ))}
           <a 
-            href="mailto:info@janvikatraders.com"
-            className="px-6 py-2 border border-primary-500 text-primary-400 hover:bg-primary-500 hover:text-earth-950 transition-all duration-300 rounded-full text-sm font-semibold uppercase tracking-wider"
+            href="mailto:info@janvikatraders.in"
+            className="px-6 py-2 border border-primary-500 text-primary-600 hover:bg-primary-500 hover:text-white transition-all duration-300 rounded-full text-sm font-semibold uppercase tracking-wider"
           >
             Contact Us
           </a>
@@ -88,7 +88,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a 
-                href="mailto:info@janvikatraders.com"
+                href="mailto:info@janvikatraders.in"
                 className="inline-block mt-4 px-6 py-3 bg-primary-500 text-earth-950 text-center transition-all duration-300 rounded-full font-semibold uppercase tracking-wider"
               >
                 Contact Us
