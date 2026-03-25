@@ -18,8 +18,8 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Products', href: '#products' },
+    { name: 'Grading', href: '#grading' },
     { name: 'Features', href: '#features' },
-    { name: 'Reviews', href: '#reviews' },
   ];
 
   return (

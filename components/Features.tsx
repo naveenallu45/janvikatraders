@@ -68,7 +68,7 @@ export default function Features() {
                   <img src="/images/tobacco_leaf.png" className="w-32 h-32 md:w-48 md:h-48 object-cover grayscale" alt="Tobacco Texture" />
                </div>
 
-               <div className="text-earth-950 bg-primary-500 w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-6 shadow-lg shadow-primary-500/20 group-hover:scale-110 group-hover:rotate-3 transition-all relative z-10">
+               <div className="text-earth-950 bg-gradient-to-br from-primary-400 to-emerald-600 w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl flex items-center justify-center mb-4 md:mb-6 shadow-[0_0_20px_rgba(34,197,94,0.3)] group-hover:shadow-[0_0_30px_rgba(34,197,94,0.6)] group-hover:scale-110 group-hover:rotate-3 transition-all relative z-10">
                  {feature.icon}
                </div>
                <h3 className="text-lg md:text-xl font-bold mb-2 md:mb-4 uppercase tracking-wide text-white relative z-10">{feature.title}</h3>

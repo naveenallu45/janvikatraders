@@ -2,7 +2,7 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Features from '@/components/Features';
 import TobaccoTypes from '@/components/TobaccoTypes';
-import Reviews from '@/components/Reviews';
+import Grading from '@/components/Grading';
 
 export default function Home() {
   return (
@@ -10,8 +10,8 @@ export default function Home() {
       <Hero />
       <About />
       <TobaccoTypes />
+      <Grading />
       <Features />
-      <Reviews />
     </>
   );
 }

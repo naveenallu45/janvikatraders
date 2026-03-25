@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center pt-28 pb-8 md:pt-32 md:pb-12 overflow-hidden">
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-earth-950/80 bg-gradient-to-r from-earth-950 via-earth-950/90 to-earth-900/50 mix-blend-multiply z-10" />
+        <div className="absolute inset-0 bg-earth-950/80 bg-gradient-to-r from-earth-950 via-earth-950/80 to-emerald-900/40 mix-blend-multiply z-10" />
         {/* Placeholder image for a tobacco farm or rich tobacco texture */}
         <div 
           className="absolute inset-0 bg-cover bg-center" 
@@ -55,7 +55,7 @@ export default function Hero() {
           >
             <Link 
               href="#products"
-              className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-primary-500 text-earth-950 font-bold uppercase tracking-wider rounded-lg hover:bg-primary-400 transition-all flex items-center justify-center gap-2 group text-sm md:text-base"
+              className="w-full sm:w-auto px-8 py-3.5 md:py-4 bg-gradient-to-r from-primary-500 to-emerald-400 text-earth-950 font-bold uppercase tracking-wider rounded-lg hover:shadow-[0_0_25px_rgba(34,197,94,0.5)] transition-all flex items-center justify-center gap-2 group text-sm md:text-base"
             >
               Our Products
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
